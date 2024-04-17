@@ -106,6 +106,7 @@ class FavoriteStoreFactory @Inject constructor(
     }
 
     private inner class ExecutorImpl : CoroutineExecutor<Intent, Action, State, Msg, Label>() {
+
         override fun executeIntent(intent: Intent, getState: () -> State) {
             when (intent) {
                 is Intent.CityItemClicked -> {
