@@ -5,7 +5,7 @@ import ru.nfm.weatherapp.domain.entity.City
 
 interface FavoriteRepository {
 
-    val favoriteCities: Flow<City>
+    val favoriteCities: Flow<List<City>>
 
     fun observeIsFavorite(cityId: Int): Flow<Boolean>
 
