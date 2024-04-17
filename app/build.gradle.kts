@@ -70,6 +70,7 @@ dependencies {
     implementation(libs.mvikotlin.core)
     implementation(libs.mvikotlin.coroutines)
     implementation(libs.mvikotlin.main)
+    implementation(libs.mvikotlin.logging)
 
     implementation(libs.decompose.core)
     implementation(libs.decompose.jetpack)
