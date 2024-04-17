@@ -1,4 +1,4 @@
-package ru.nfm.weatherapp.ui.theme
+package ru.nfm.weatherapp.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build

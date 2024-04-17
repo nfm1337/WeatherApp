@@ -1,4 +1,4 @@
-package ru.nfm.weatherapp.ui.theme
+package ru.nfm.weatherapp.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
