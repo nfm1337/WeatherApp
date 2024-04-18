@@ -38,6 +38,7 @@ import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi
@@ -155,7 +156,9 @@ private fun CityCard(
                 modifier = Modifier.align(Alignment.BottomStart),
                 text = cityItem.city.name,
                 style = MaterialTheme.typography.titleMedium,
-                color = MaterialTheme.colorScheme.background
+                color = MaterialTheme.colorScheme.background,
+                overflow = TextOverflow.Ellipsis,
+                maxLines = 1
             )
         }
     }

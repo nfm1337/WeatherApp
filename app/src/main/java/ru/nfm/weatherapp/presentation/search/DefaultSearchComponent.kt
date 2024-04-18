@@ -52,7 +52,7 @@ class DefaultSearchComponent @AssistedInject constructor(
         store.accept(SearchStore.Intent.ChangeSearchQuery(query))
     }
 
-    override fun clickBack() {
+    override fun onClickBack() {
         store.accept(SearchStore.Intent.ClickBack)
     }
 

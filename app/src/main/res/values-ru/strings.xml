@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="button_add_favorite">Добавить в избранное</string>
+    <string name="search">Поиск</string>
+    <string name="upcoming">В следующие дни</string>
+    <string name="empty_result_text">Ничего не найдено по вашему запросу =(</string>
+    <string name="something_went_wrong">Упс! Что-то пошло не так.</string>
+</resources>

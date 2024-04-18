@@ -9,7 +9,7 @@ interface SearchComponent {
 
     fun changeSearchQuery(query: String)
 
-    fun clickBack()
+    fun onClickBack()
 
     fun onClickSearch()
 
